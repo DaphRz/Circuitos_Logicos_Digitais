@@ -1,4 +1,4 @@
-<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+<circuit version="1.1.0-RC1" rev="2162" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
 
 <item itemtype="Subcircuit" CircId="74HC85-83" mainComp="false" Show_id="true" Show_Val="false" Pos="40,584" rotation="0" hflip="1" vflip="1" label="74HC85-83" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
 
@@ -10,23 +10,19 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-496,376" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-21" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Potentiometer" CircId="Potentiometer-6" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-200,88" rotation="0" hflip="1" vflip="1" label="Potentiometer-6" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="816 Ω" Slider="false" Scale="5" />
-
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-66" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,516" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-66" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
 <item itemtype="Probe" CircId="Probe-14" mainComp="false" Show_id="false" Show_Val="true" Pos="-416,384" rotation="-45" hflip="1" vflip="1" label="Probe-14" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="ADC" CircId="ADC-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-392,264" rotation="0" hflip="1" vflip="1" label="ADC-20" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
 
-<item itemtype="Potentiometer" CircId="Potentiometer-33" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-468,428" rotation="-90" hflip="1" vflip="1" label="Potentiometer-33" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="0 Ω" Slider="false" Scale="1" />
+<item itemtype="Potentiometer" CircId="Potentiometer-33" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-468,428" rotation="-90" hflip="1" vflip="1" label="Potentiometer-33" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="468 Ω" Slider="false" Scale="1" />
 
 <item itemtype="7-Seg BCD" CircId="7-Seg BCD-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,208" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-32" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-30" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,320" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-30" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
 <item itemtype="Probe" CircId="Probe-13" mainComp="false" Show_id="false" Show_Val="true" Pos="-420,212" rotation="-45" hflip="1" vflip="1" label="Probe-13" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
-
-<item itemtype="Ground" CircId="Ground-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-32" rotation="0" hflip="1" vflip="1" label="Ground-5" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="7-Seg BCD" CircId="7-Seg BCD-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,380" rotation="0" hflip="1" vflip="1" label="7-Seg BCD-31" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Show_Point_Pin="false" Show_Enable_Pin="false" />
 
@@ -38,9 +34,7 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-500,204" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-7" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
 
-<item itemtype="Potentiometer" CircId="Potentiometer-16" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-472,256" rotation="-90" hflip="1" vflip="1" label="Potentiometer-16" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="816 Ω" Slider="false" Scale="1" />
-
-<item itemtype="DcMotor" CircId="DcMotor-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-292,-116" rotation="90" hflip="1" vflip="1" label="DcMotor-3" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" Links="Potentiometer-6,Dial-2,Potentiometer-16," RPM_Nominal="10 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+<item itemtype="Potentiometer" CircId="Potentiometer-16" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-472,256" rotation="-90" hflip="1" vflip="1" label="Potentiometer-16" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="0 Ω" Slider="false" Scale="1" />
 
 <item itemtype="Potentiometer" CircId="Potentiometer-60" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-264,740" rotation="-90" hflip="1" vflip="1" label="Potentiometer-60" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="447 Ω" Slider="false" Scale="1" />
 
@@ -58,7 +52,7 @@
 
 <item itemtype="ADC" CircId="ADC-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,436" rotation="0" hflip="1" vflip="1" label="ADC-35" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Bits="4 _Bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
 
-<item itemtype="DcMotor" CircId="DcMotor-36" mainComp="false" Show_id="true" Show_Val="false" Pos="56,316" rotation="270" hflip="1" vflip="1" label="DcMotor-36" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" Links="Potentiometer-70,Dial-2," RPM_Nominal="30 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+<item itemtype="DcMotor" CircId="DcMotor-36" mainComp="false" Show_id="true" Show_Val="false" Pos="56,316" rotation="-270" hflip="1" vflip="1" label="DcMotor-36" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" Links="Potentiometer-70,Dial-2," RPM_Nominal="30 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
 
 <item itemtype="Ground" CircId="Ground-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-264,784" rotation="0" hflip="1" vflip="1" label="Ground-63" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
@@ -66,9 +60,7 @@
 
 <item itemtype="Led" CircId="Led-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-64,276" rotation="0" hflip="1" vflip="1" label="Led-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="true" Threshold="3.5 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-192" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-4" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
-
-<item itemtype="Potentiometer" CircId="Potentiometer-70" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-228,568" rotation="-90" hflip="1" vflip="1" label="Potentiometer-70" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="432 Ω" Slider="false" Scale="1" />
+<item itemtype="Potentiometer" CircId="Potentiometer-70" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-228,568" rotation="-90" hflip="1" vflip="1" label="Potentiometer-70" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="222 Ω" Slider="false" Scale="1" />
 
 <item itemtype="Probe" CircId="Probe-61" mainComp="false" Show_id="false" Show_Val="true" Pos="-192,712" rotation="-45" hflip="1" vflip="1" label="Probe-61" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
 
@@ -94,9 +86,9 @@
 
 <item itemtype="Node" CircId="Node-94" mainComp="false" Pos="16,632" />
 
-<item itemtype="Node" CircId="Node-56" mainComp="false" Pos="-112,336" />
-
 <item itemtype="Node" CircId="Node-65" mainComp="false" Pos="-88,764" />
+
+<item itemtype="Node" CircId="Node-97" mainComp="false" Pos="-124,336" />
 
 <item itemtype="Node" CircId="Node-9" mainComp="false" Pos="-336,280" />
 
@@ -152,17 +144,15 @@
 
 <item itemtype="Connector" uid="Connector-134" startpinid="Node-65-1" endpinid="74HC85-83-B3" pointList="-88,764,-4,764,-4,672,32,672" />
 
-<item itemtype="Connector" uid="Connector-5" startpinid="Node-28-1" endpinid="74HC85-15-B0" pointList="-308,428,-232,428,-232,336,-212,336" />
+<item itemtype="Connector" uid="Connector-194" startpinid="74HC85-83-A&#x3CB" endpinid="Led-37-lPin" pointList="96,616,112,616,112,432,-104,432,-104,276,-80,276" />
 
-<item itemtype="Connector" uid="Connector-2" startpinid="DcMotor-3-rPin" endpinid="Ground-5-Gnd" pointList="-292,-76,-292,-48" />
+<item itemtype="Connector" uid="Connector-5" startpinid="Node-28-1" endpinid="74HC85-15-B0" pointList="-308,428,-232,428,-232,336,-212,336" />
 
 <item itemtype="Connector" uid="Connector-3" startpinid="Node-9-1" endpinid="74HC85-15-A3" pointList="-336,280,-248,280,-248,304,-212,304" />
 
 <item itemtype="Connector" uid="Connector-47" startpinid="Potentiometer-16-PinM" endpinid="Node-34-0" pointList="-456,256,-436,256" />
 
 <item itemtype="Connector" uid="Connector-156" startpinid="ADC-88-out3" endpinid="Node-65-0" pointList="-120,764,-88,764" />
-
-<item itemtype="Connector" uid="Connector-108" startpinid="Node-56-1" endpinid="DcMotor-36-lPin" pointList="-112,336,-112,404,56,404,56,356" />
 
 <item itemtype="Connector" uid="Connector-137" startpinid="Node-68-1" endpinid="74HC85-83-A3" pointList="-92,592,-4,592,-4,616,32,616" />
 
@@ -204,8 +194,6 @@
 
 <item itemtype="Connector" uid="Connector-118" startpinid="Fixed Voltage-30-outnod" endpinid="Node-46-0" pointList="-252,320,-232,320" />
 
-<item itemtype="Connector" uid="Connector-109" startpinid="74HC85-15-A&#x3EB" endpinid="Node-56-0" pointList="-148,336,-112,336" />
-
 <item itemtype="Connector" uid="Connector-34" startpinid="Node-28-2" endpinid="7-Seg BCD-31-in0" pointList="-308,428,-308,412" />
 
 <item itemtype="Connector" uid="Connector-166" startpinid="Node-81-1" endpinid="Node-64-0" pointList="-192,568,-192,568" />
@@ -223,6 +211,8 @@
 <item itemtype="Connector" uid="Connector-179" startpinid="Node-95-2" endpinid="Node-94-0" pointList="16,632,16,632" />
 
 <item itemtype="Connector" uid="Connector-39" startpinid="Node-41-2" endpinid="ADC-35-in0" pointList="-432,428,-412,428" />
+
+<item itemtype="Connector" uid="Connector-190" startpinid="74HC85-15-A&#x3CB" endpinid="DcMotor-36-lPin" pointList="-148,304,-124,304,-124,220,56,220,56,276" />
 
 <item itemtype="Connector" uid="Connector-123" startpinid="Potentiometer-60-PinA" endpinid="Ground-63-Gnd" pointList="-264,756,-264,768" />
 
@@ -252,8 +242,6 @@
 
 <item itemtype="Connector" uid="Connector-98" startpinid="Node-46-2" endpinid="74HC85-15-IA&#x3CB" pointList="-232,320,-232,312,-212,312" />
 
-<item itemtype="Connector" uid="Connector-182" startpinid="74HC85-83-A&#x3EB" endpinid="Led-37-lPin" pointList="96,648,120,648,120,432,-92,432,-92,276,-80,276" />
-
 <item itemtype="Connector" uid="Connector-44" startpinid="Node-39-2" endpinid="7-Seg BCD-32-in2" pointList="-328,272,-328,240" />
 
 <item itemtype="Connector" uid="Connector-148" startpinid="Node-76-1" endpinid="74HC85-83-A2" pointList="-84,584,4,584,4,608,32,608" />
@@ -267,6 +255,8 @@
 <item itemtype="Connector" uid="Connector-122" startpinid="Fixed Voltage-62-outnod" endpinid="Potentiometer-60-PinB" pointList="-308,692,-264,692,-264,724" />
 
 <item itemtype="Connector" uid="Connector-46" startpinid="Node-17-2" endpinid="Node-19-0" pointList="-436,256,-436,256" />
+
+<item itemtype="Connector" uid="Connector-191" startpinid="Node-97-1" endpinid="DcMotor-36-rPin" pointList="-124,336,-124,388,56,388,56,356" />
 
 <item itemtype="Connector" uid="Connector-22" startpinid="Node-17-1" endpinid="Node-19-1" pointList="-436,256,-436,256" />
 
@@ -282,15 +272,13 @@
 
 <item itemtype="Connector" uid="Connector-23" startpinid="Potentiometer-33-PinB" endpinid="Fixed Voltage-21-outnod" pointList="-468,412,-468,376,-480,376" />
 
-<item itemtype="Connector" uid="Connector-110" startpinid="Node-56-2" endpinid="Led-38-lPin" pointList="-112,336,-80,336,-80,364" />
-
 <item itemtype="Connector" uid="Connector-161" startpinid="Node-90-2" endpinid="7-Seg BCD-78-in0" pointList="-68,568,-68,552" />
+
+<item itemtype="Connector" uid="Connector-192" startpinid="74HC85-15-A&#x3EB" endpinid="Node-97-0" pointList="-148,336,-124,336" />
 
 <item itemtype="Connector" uid="Connector-171" startpinid="Potentiometer-60-PinM" endpinid="Node-93-0" pointList="-248,740,-208,740" />
 
 <item itemtype="Connector" uid="Connector-164" startpinid="ADC-86-out0" endpinid="Node-90-0" pointList="-124,568,-68,568" />
-
-<item itemtype="Connector" uid="Connector-180" startpinid="74HC85-15-A&#x3CB" endpinid="DcMotor-36-rPin" pointList="-148,304,-112,304,-112,224,56,224,56,276" />
 
 <item itemtype="Connector" uid="Connector-139" startpinid="ADC-86-out2" endpinid="Node-76-0" pointList="-124,584,-84,584" />
 
@@ -316,7 +304,7 @@
 
 <item itemtype="Connector" uid="Connector-177" startpinid="74HC85-83-IA&#x3EB" endpinid="Node-95-1" pointList="32,640,16,640,16,632" />
 
-<item itemtype="Connector" uid="Connector-1" startpinid="Fixed Voltage-4-outnod" endpinid="DcMotor-3-lPin" pointList="-332,-192,-292,-192,-292,-156" />
+<item itemtype="Connector" uid="Connector-193" startpinid="Node-97-2" endpinid="Led-38-lPin" pointList="-124,336,-80,336,-80,364" />
 
 <item itemtype="Connector" uid="Connector-16" startpinid="Node-40-1" endpinid="74HC85-15-A0" pointList="-312,256,-224,256,-224,280,-212,280" />
 
